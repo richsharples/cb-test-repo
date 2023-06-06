@@ -1,2 +1,2 @@
 # cb-test-repo
-a test
+This is just a test repo
