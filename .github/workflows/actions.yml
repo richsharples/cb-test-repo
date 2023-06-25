@@ -1,16 +1,16 @@
-name: Actions Workflow
+
+name: Actions Workflow 
 
 on: [push]
-
-jobs:
-    run-github-actions:
+jobs: 
+    run-github-actions: 
         runs-on: ubuntu-latest
         steps:
-            - name: Simple JS Action
-              id: greet 
-              uses: actions/hello-world-javascript-action@v1
-              with: 
-                who-to-greet: Rich
-            - name: Log Greeting Time
-              run: echo "${{ steps.greet.outputs.time }}"
-    
+          - name: Simple JS Action
+            id: greet 
+            uses: actions/hello-world-javascript-action@v1
+            with: 
+              who-to-greet: John
+          - name: Log Greeting Time
+
+
