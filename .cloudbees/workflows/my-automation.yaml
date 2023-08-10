@@ -5,7 +5,7 @@ name: My automation
 on:
   push:
     branches:
-      - main
+      - '**'
 
 jobs:
   build:
@@ -14,4 +14,4 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "hello world !!"
+          echo "hello world"
