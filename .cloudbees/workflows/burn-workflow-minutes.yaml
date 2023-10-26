@@ -1,0 +1,517 @@
+apiVersion: automation.cloudbees.io/v1alpha1
+kind: workflow
+name: Burn Workflow Minutes
+on:
+  push:
+    branches:
+      - "branch-001"
+jobs:
+  job01:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job02:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job03:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job04:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job05:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job06:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job07:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job08:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job09:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job10:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job11:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job12:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job13:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job14:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job15:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job16:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job17:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job18:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job19:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job20:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job21:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job22:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job23:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job24:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job25:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job26:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job27:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job28:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job29:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job30:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job31:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job32:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job33:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job34:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job35:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job36:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job37:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job38:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job39:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job40:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job41:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job42:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job43:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job44:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job45:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job46:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job47:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job48:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job49:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job50:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for 120"
+          sleep 120
+          echo "done"
+  job60:
+    steps:
+      - name: Say hello
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "$(date)"
+          echo "done"
+    needs:
+      - job01
+      - job02
+      - job03
+      - job04
+      - job05
+      - job06
+      - job07
+      - job08
+      - job09
+      - job10
+      - job11
+      - job12
+      - job13
+      - job14
+      - job15
+      - job16
+      - job17
+      - job18
+      - job19
+      - job20
+      - job21
+      - job22
+      - job23
+      - job24
+      - job25
+      - job26
+      - job27
+      - job28
+      - job29
+      - job30      
+      - job31
+      - job32
+      - job33
+      - job34
+      - job35
+      - job36
+      - job37
+      - job38
+      - job39
+      - job40      
+      - job41
+      - job42
+      - job43
+      - job44
+      - job45
+      - job46
+      - job47
+      - job48
+      - job49
+      - job50      
