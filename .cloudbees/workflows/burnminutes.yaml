@@ -16,3 +16,4 @@ jobs:
         run: |
           echo "Sleeping for " ${{vars.JobMinsToBurn}}
           sleep ${{vars.JobMinsToBurn}}
+          echo "Slept"
