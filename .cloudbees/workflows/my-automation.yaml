@@ -5,13 +5,23 @@ name: My automation
 on:
   push:
     branches:
-      - 'disabled'
+      - '**'
 
 jobs:
-  build:
+  burn1:
     steps:
-      - name: Say hello
+      - name: Burn1
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "hello world"
+          echo "sleeping for a long time"
+          sleep 18000
+
+  burn2:
+    steps:
+      - name: Burn2
+        uses: docker://golang:1.20.3-alpine3.17
+        shell: sh
+        run: |
+          echo "sleeping for a long time"
+          sleep 18000
