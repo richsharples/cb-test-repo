@@ -14,8 +14,9 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          for i in {1..${{vars.JobMinsToBurn}}}
+          for (( i=1 ; i<=${{vars.JobMinsToBurn}} ; i++ )); 
           do
-            echo "Total time=" $i * ${{vars.JobMinsToBurn}}
+            echo $i
+            sleep 60
           done
           echo "----------"
