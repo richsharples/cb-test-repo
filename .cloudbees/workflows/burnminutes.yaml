@@ -12,9 +12,11 @@ jobs:
     steps:
       - name: Burn
         uses: docker://golang:1.20.3-alpine3.17
+        env:
+          MINS: ${{ vars.JobMinsToBurn }}
         shell: sh
         run: |
-          for (( i=1 ; i<=$vars.JobMinsToBurn ; i++ )); 
+          for (( i=1 ; i<=$MINS ; i++ )); 
           do
             echo $i
             sleep 60
